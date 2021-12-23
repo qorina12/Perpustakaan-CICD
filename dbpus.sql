@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 -- Database: `dbpus`
 --
 
+CREATE DATABASE IF NOT EXISTS `dbpus` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `dbpus`;
 -- --------------------------------------------------------
 
 --
