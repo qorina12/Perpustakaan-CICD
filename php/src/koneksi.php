@@ -1,6 +1,6 @@
 <?php 
-    $server = "172.20.0.2"; 
-    $user = "root"; 
+    $server = "150.230.59.50"; 
+    $user = "orin"; 
     $password = "Admin"; 
     $nama_database = "dbpus"; 
 
