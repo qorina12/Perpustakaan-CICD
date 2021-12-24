@@ -4,5 +4,8 @@
     $password = "Admin"; 
     $nama_database = "dbpus"; 
 
-    $connect = mysqli_connect ($hostname, $username, $password, $database);
+    $db = mysqli_connect($server, $user, $password, $nama_database); 
+    if( !$db ) {
+        die("Gagal terhubung dengan database: " . mysqli_connect_error()); 
+    }
 ?>
